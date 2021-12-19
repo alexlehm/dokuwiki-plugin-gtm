@@ -1,7 +1,7 @@
 base   googletagmanager
 author Alexander Lehmann
 email  alexlehm@gmail.com
-date   2020-10-24
+date   2021-12-19
 name   Google Tag Manager
 desc   Integrate a GTM tag into the wiki
-url    http://www.lehmann.cx/wiki/projects:dokuwiki_gtm
+url    https://www.lehmann.cx/wiki/projects:dokuwiki_gtm
