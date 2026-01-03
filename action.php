@@ -14,10 +14,10 @@ class action_plugin_googletagmanager extends DokuWiki_Action_Plugin {
                 return array(
                         'author' => 'Alexander Lehmann',
                         'email'  => 'alexlehm@gmail.com',
-                        'date'   => '2022-12-29',
+                        'date'   => '2026-01-03',
                         'name'   => 'Google Tag Manager Plugin',
                         'desc'   => 'Plugin to embed Google Tag Manager in your wiki.',
-                        'url'    => 'https://www.lehmann.cx/wiki/projects:dokuwiki_gtm',
+                        'url'    => 'https://wiki.lehmann.cx/projects:dokuwiki_gtm',
                 );
         }
 
