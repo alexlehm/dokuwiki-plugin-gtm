@@ -1,3 +1,3 @@
 <?php
 
-$meta['GTMID'] = array('string');
+$meta['GTMID'] = ['string'];
