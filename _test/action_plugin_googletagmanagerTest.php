@@ -26,7 +26,7 @@ class action_plugin_googletagmanagerTest extends \DokuWikiTest
         idx_addPage($pageId);
 
         $request = new TestRequest();
-        $response = $request->get(array('id' => $pageId, '/doku.php'));
+        $response = $request->get(['id' => $pageId, '/doku.php']);
 
         /**
          * Tags to searched
@@ -67,7 +67,7 @@ class action_plugin_googletagmanagerTest extends \DokuWikiTest
         idx_addPage($pageId);
 
         $request = new TestRequest();
-        $response = $request->get(array('id' => $pageId, '/doku.php'));
+        $response = $request->get(['id' => $pageId, '/doku.php']);
 
         $domElements = $response->queryHTML("script");
 
