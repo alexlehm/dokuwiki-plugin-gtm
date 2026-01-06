@@ -44,6 +44,7 @@ class action_plugin_googletagmanagerTest extends \DokuWikiTest
                         $value = $domElement->textContent;
                     } else {
                         // iframe src as subelement of noscript
+                        $this->assertEquals("iframe", $domElement->firstChild->nodeName);
                         $value = $domElement->firstChild->getAttribute("src");
                     }
                     $patternFound = preg_match("!https://www.googletagmanager.com/.*id=.*$gtmValue!s", $value) === 1;
